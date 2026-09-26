@@ -11,14 +11,15 @@ function App() {
     <>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+        
+        import velas from './assets/velas.jpg"
+        <img src={velasimg} alt="imagen de velas"/>
         </div>
         <div>
-          <h1>Get started</h1>
+          <h1>Velas artesanales</h1>
           <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+          velas hechas para crear momentos especiales, creamos velas con diferentes aromas 
+          para acompañar tus días y darle un ambiente agradable a tu hogar.
           </p>
         </div>
         <button
@@ -42,7 +43,7 @@ function App() {
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
+                <img reactLogo className="logo" src={viteLogo} alt="" />
                 Explore Vite
               </a>
             </li>
